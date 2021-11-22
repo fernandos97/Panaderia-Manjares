@@ -1,0 +1,57 @@
+.tituloManjares {
+    color: #e0876a;
+    font-size: 15px;
+}
+
+body {
+    background-color: #ffffb6;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.seccionComidaImagen {
+    width: 100%;
+}
+
+.seccionComidaTitulo {
+    background-color: #ff9fa1;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.seccionComida {
+    margin: 30px;
+}
+
+.seccionesComidas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider {
+    background-image: url("../assets/panes.jpg");
+    width: 100%;
+    height: 350px;
+}
