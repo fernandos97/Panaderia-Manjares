@@ -36,7 +36,7 @@ a {
 }
 
 .seccionComidaTitulo {
-    background-color: #ff9fa1;
+    background-color: #ffc9a1;
     border: 2px solid black;
     text-align: center;
 }
@@ -58,4 +58,8 @@ a {
 
 .mediosDePago {
 
+}
+
+footer {
+    background-color: #ff9fa1;
 }
