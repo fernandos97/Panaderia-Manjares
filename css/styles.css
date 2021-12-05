@@ -162,7 +162,6 @@ footer {
 /*pagina contactanos*/
 
 form {
-    
     width: 450px;
     margin: auto;
     padding: 10px 20px;
@@ -173,3 +172,7 @@ form {
     align-items: stretch;
     justify-content: space-around;
     flex-wrap: wrap; }
+
+.espacioContactanos {
+    min-height: 60vh;
+}
