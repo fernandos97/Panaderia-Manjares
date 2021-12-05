@@ -157,3 +157,19 @@ footer {
     text-align: center;
 
 }
+
+
+/*pagina contactanos*/
+
+form {
+    
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap; }
