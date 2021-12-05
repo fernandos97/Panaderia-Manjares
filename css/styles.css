@@ -16,7 +16,7 @@ li {
 
 }
 
-ul {
+.ulNav {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -41,23 +41,27 @@ a {
 }
 
 .seccionComidaTitulo {
-    background-image: linear-gradient(to left,whitesmoke, grey ) ;
+    background-image: linear-gradient(to left,rgb(199, 190, 190), grey ) ;
     text-align: center;
+    color: rgba(17, 17, 17, 0.747);
+    width: 100%;
 }
 
 .seccionComida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 30px;
 }
 
 .seccionesComidas {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2 fr 2fr;
+    grid-template-rows: 2fr 2fr;
 }
 
 .imagenDeInicio {
     width: 100%;
-    height: 300px;
 }
 
 .mediosDePago {
@@ -69,10 +73,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 1px;
-
+    width: 100%;
 }
 
-li:hover {
+.ulNav li:hover {
     background-color: white;
     transform: scale(1.5);
     transition: 0.5s;
@@ -81,17 +85,31 @@ li:hover {
 .parrafoBakery {
     font-size: 1.5rem;
     text-align: center;
+    color: rgba(0, 0, 0, 0.651);
 }
 
 .imagenesProductos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 1rem;
-    margin: 1rem;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 50px;
+    place-items: center;
 
 }
 
 .footerContactanos {
     font-style: italic;
+}
+
+.imagenesProducto {
+    width: 300px;
+}
+
+
+@media (max-width: 570px){
+    nav{
+        flex-direction: column;
+    };
+    footer {
+    }
 }
