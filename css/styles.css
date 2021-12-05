@@ -2,6 +2,7 @@
     color:black;
     font-size: 25px;
     margin-left: 25px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -20,6 +21,8 @@ li {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
 }
 
 nav {
@@ -42,10 +45,11 @@ a {
 }
 
 .seccionComidaTitulo {
-    background-image: linear-gradient(to left,rgb(199, 190, 190), grey ) ;
+    background-image: linear-gradient(to left,rgb(199, 190, 190, 50%), rgb(128, 128, 128, 30%) ) ;
     text-align: center;
     color: rgba(17, 17, 17, 0.747);
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .seccionComida {
@@ -66,11 +70,12 @@ a {
 }
 
 .mediosDePago {
+    font-family: 'Quicksand', sans-serif;
 
 }
 
 footer {
-    background-color:rgba(102, 102, 102, 40%);
+    background-image: linear-gradient(to left,rgb(231, 231, 231), grey ) ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 1px;
@@ -84,9 +89,10 @@ footer {
 }
 
 .parrafoBakery {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.651);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .imagenesProductos {
@@ -99,7 +105,7 @@ footer {
 }
 
 .footerContactanos {
-    font-style: italic;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .imagenesProducto {
@@ -121,5 +127,33 @@ footer {
 .mapaSucursales {
     display: flex;
     justify-content:space-evenly;
+
+}
+
+
+.mapaUbicacion {
+    padding-top: 90px;
+}
+
+.seguiRedes {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textoSucursales {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.textoMenu {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textoProductos {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.textoContactanos {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
 
 }
