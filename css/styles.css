@@ -24,6 +24,7 @@ li {
 
 nav {
     display: flex;
+    flex-direction: column;
     background-color: white;
     align-items: center;
 }
@@ -112,4 +113,13 @@ footer {
     };
     footer {
     }
+    .mapaSucursales{
+        flex-direction: column;
+    }
+}
+
+.mapaSucursales {
+    display: flex;
+    justify-content:space-evenly;
+
 }
