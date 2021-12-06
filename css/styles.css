@@ -28,7 +28,7 @@ li {
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
     align-items: center;
 }
@@ -107,6 +107,9 @@ footer {
 
 .footerContactanos {
     font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .imagenesProducto {
@@ -114,7 +117,7 @@ footer {
 }
 
 
-@media (max-width: 570px){
+@media (max-width: 500px){
     nav{
         flex-direction: column;
     };
@@ -123,6 +126,12 @@ footer {
     .mapaSucursales{
         flex-direction: column;
     }
+    .seccionesComidas{
+        grid-template-columns: 1fr;
+        }
+        .imagenesProductos{
+            grid-template-columns: 1fr;
+            }
 }
 
 .mapaSucursales {
@@ -142,6 +151,12 @@ footer {
 
 .textoSucursales {
     font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 
@@ -176,4 +191,9 @@ form {
 
 .espacioContactanos {
     min-height: 60vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
