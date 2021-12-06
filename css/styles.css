@@ -120,18 +120,22 @@ footer {
 @media (max-width: 500px){
     nav{
         flex-direction: column;
-    };
+    }
     footer {
+        grid-template-columns: 1fr;
     }
     .mapaSucursales{
         flex-direction: column;
     }
     .seccionesComidas{
-        grid-template-columns: 1fr;
-        }
-        .imagenesProductos{
-            grid-template-columns: 1fr;
-            }
+    grid-template-columns: 1fr;
+    }
+    .imagenesProductos{
+    grid-template-columns: 1fr;
+    }
+    form {
+        width: 100%;
+    }
 }
 
 .mapaSucursales {
@@ -197,3 +201,4 @@ form {
     display: flex;
     justify-content: center;
 }
+
