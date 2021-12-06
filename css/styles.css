@@ -116,6 +116,7 @@ footer {
     width: 300px;
 }
 
+/*parte responsive*/
 
 @media (max-width: 500px){
     nav{
