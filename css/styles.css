@@ -24,6 +24,7 @@ li {
     width: 100%;
     font-family: 'Quicksand', sans-serif;
     font-size: larger;
+    padding-inline-start: 0px;
 }
 
 nav {
