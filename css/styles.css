@@ -27,7 +27,7 @@ li {
     padding-inline-start: 0px;
 }
 
-nav {
+.navbar {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -203,4 +203,3 @@ form {
     display: flex;
     justify-content: center;
 }
-
