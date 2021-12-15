@@ -27,7 +27,7 @@ li {
     padding-inline-start: 0px;
 }
 
-.navbar {
+nav {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -73,11 +73,13 @@ a {
 
 .mediosDePago {
     font-family: 'Quicksand', sans-serif;
+    color: seashell;
+
 
 }
 
 footer {
-    background-image: linear-gradient(to left,rgb(231, 231, 231), grey ) ;
+    background-color: rgb(172, 2, 2)  ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 1px;
@@ -103,7 +105,6 @@ footer {
     grid-template-rows: 2fr 2fr;
     gap: 50px;
     place-items: center;
-
 }
 
 .footerContactanos {
@@ -111,6 +112,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: seashell;
+
 }
 
 .imagenesProducto {
@@ -153,6 +156,7 @@ footer {
 
 .seguiRedes {
     font-family: 'Quicksand', sans-serif;
+    color: seashell;
 }
 
 .textoSucursales {
