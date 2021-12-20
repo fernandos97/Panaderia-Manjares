@@ -167,7 +167,7 @@ form {
 }
 
 .espacio__contactanos {
-    min-height: 60vh;
+    min-height: 50vh;
 }
 
 .logo {
@@ -179,7 +179,7 @@ form {
     box-shadow: 20px 10px 30px grey;
 }
 
-.segui__redes a{
+.segui__redes a {
     color: white;
 }
 
