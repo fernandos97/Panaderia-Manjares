@@ -83,12 +83,13 @@ footer {
     color: rgba(0, 0, 0, 0.651);
 }
 
-.imagenesProductos {
+.imagenes__productos {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
     gap: 50px;
     place-items: center;
+    padding-bottom: 20px;
 }
 
 .footer__contactanos {
@@ -99,8 +100,10 @@ footer {
 
 }
 
-.imagenesProducto {
+.imagenes__producto {
     width: 300px;
+    border-radius: 50%;
+    transition: 0.5s;
 }
 
 
@@ -143,6 +146,10 @@ footer {
 
 }
 
+.medios__pago-imagen {
+    width: 50px;
+    height: 30px;
+}
 
 /*pagina contactanos*/
 
@@ -168,6 +175,14 @@ form {
     justify-content: center;
 }
 
+.imagenes__producto:hover {
+    box-shadow: 20px 10px 30px grey;
+}
+
+.segui__redes a{
+    color: white;
+}
+
 /*parte responsive*/
 
 @media (max-width: 500px) {
@@ -187,11 +202,20 @@ form {
         grid-template-columns: 1fr;
     }
 
-    .imagenesProductos {
+    .imagenes__productos {
         grid-template-columns: 1fr;
     }
 
     form {
         width: 100%;
+    }
+
+    .medios__pago {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer__contactanos {
+        text-align: center;
     }
 }
