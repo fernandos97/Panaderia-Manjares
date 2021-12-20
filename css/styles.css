@@ -1,15 +1,14 @@
 .tituloManjares {
-    color:black;
+    color: black;
     font-size: 25px;
     margin-left: 25px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 body {
     background-image: linear-gradient(to bottom, white, whitesmoke);
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
 }
 
@@ -18,14 +17,7 @@ li {
 
 }
 
-.ulNav {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    font-family: 'Quicksand', sans-serif;
-    font-size: larger;
-    padding-inline-start: 0px;
-}
+
 
 nav {
     display: flex;
@@ -39,29 +31,28 @@ a {
     color: black;
 }
 
-.seccionComidaImagen {
+.seccion__comidaImagen {
     width: 80%;
     height: 80%;
     object-fit: cover;
     display: block;
 }
 
-.seccionComidaTitulo {
-    background-image: linear-gradient(to left,rgb(199, 190, 190, 50%), rgb(128, 128, 128, 30%) ) ;
+.seccion__comidaTitulo {
+    background-image: linear-gradient(to left, rgb(199, 190, 190, 50%), rgb(128, 128, 128, 30%));
     text-align: center;
     color: rgba(17, 17, 17, 0.747);
     width: 100%;
-    font-family: 'Quicksand', sans-serif;
 }
 
-.seccionComida {
+.seccion__comida {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px;
 }
 
-.seccionesComidas {
+.secciones__comidas {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
@@ -71,32 +62,25 @@ a {
     width: 100%;
 }
 
-.mediosDePago {
-    font-family: 'Quicksand', sans-serif;
+.medios__pago {
     color: seashell;
 
 
 }
 
 footer {
-    background-color: rgb(172, 2, 2)  ;
+    background-color: rgb(172, 2, 2);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 1px;
     width: 100%;
 }
 
-.ulNav li:hover {
-    background-color: white;
-    transform: scale(1.5);
-    transition: 0.5s;
-}
 
-.parrafoBakery {
+.parrafo__bakery {
     font-size: 2rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.651);
-    font-family: 'Quicksand', sans-serif;
 }
 
 .imagenesProductos {
@@ -107,8 +91,7 @@ footer {
     place-items: center;
 }
 
-.footerContactanos {
-    font-family: 'Quicksand', sans-serif;
+.footer__contactanos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,47 +103,24 @@ footer {
     width: 300px;
 }
 
-/*parte responsive*/
 
-@media (max-width: 500px){
-    nav{
-        flex-direction: column;
-    }
-    footer {
-        grid-template-columns: 1fr;
-    }
-    .mapaSucursales{
-        flex-direction: column;
-    }
-    .seccionesComidas{
-    grid-template-columns: 1fr;
-    }
-    .imagenesProductos{
-    grid-template-columns: 1fr;
-    }
-    form {
-        width: 100%;
-    }
-}
 
-.mapaSucursales {
+.mapa__sucursales {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 
 }
 
 
-.mapaUbicacion {
+.mapa__ubicacion {
     padding-top: 90px;
 }
 
-.seguiRedes {
-    font-family: 'Quicksand', sans-serif;
+.segui__redes {
     color: seashell;
 }
 
-.textoSucursales {
-    font-family: 'Quicksand', sans-serif;
+.texto__sucursales {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -170,16 +130,15 @@ footer {
 }
 
 
-.textoMenu {
-    font-family: 'Quicksand', sans-serif;
+.texto__menu {
+    display: flex;
+    flex-direction: column;
+
+
 }
 
-.textoProductos {
-    font-family: 'Quicksand', sans-serif;
-}
 
-.textoContactanos {
-    font-family: 'Quicksand', sans-serif;
+.texto__contactanos {
     text-align: center;
 
 }
@@ -197,13 +156,42 @@ form {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+}
 
-.espacioContactanos {
+.espacio__contactanos {
     min-height: 60vh;
 }
 
 .logo {
     display: flex;
     justify-content: center;
+}
+
+/*parte responsive*/
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    .mapa__sucursales {
+        flex-direction: column;
+    }
+
+    .secciones__comidas {
+        grid-template-columns: 1fr;
+    }
+
+    .imagenesProductos {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        width: 100%;
+    }
 }

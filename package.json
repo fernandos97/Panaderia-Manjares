@@ -1,0 +1,22 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Panaderia-Manjares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandos97/PanaderiaManjares.git"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "fernandos97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandos97/PanaderiaManjares/issues"
+  },
+  "homepage": "https://github.com/fernandos97/PanaderiaManjares#readme"
+}
