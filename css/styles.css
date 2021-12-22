@@ -104,6 +104,11 @@
           flex-direction: column;
 }
 
+.texto__menu h2 {
+  background-color: #ac0202;
+  color: white;
+}
+
 .texto__contactanos {
   text-align: center;
 }

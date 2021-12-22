@@ -1,6 +1,5 @@
-@import "index.scss","productos.scss","sucursales.scss", "menu.scss", "contactanos.scss";
-
-
+$footer-color: rgb(172, 2, 2);
+@import "_index.scss","_productos.scss","_sucursales.scss", "_menu.scss", "_contactanos.scss";
 
 body {
     background-image: linear-gradient(to bottom, white, whitesmoke);
@@ -16,7 +15,7 @@ a {
 }
 
 footer {
-    background-color: rgb(172, 2, 2);
+    background-color: $footer-color;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 1px;

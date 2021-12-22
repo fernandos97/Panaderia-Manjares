@@ -1,0 +1,8 @@
+.texto__menu {
+    display: flex;
+    flex-direction: column;
+    h2 {
+        background-color: $footer-color;
+        color: white;
+    }
+}
