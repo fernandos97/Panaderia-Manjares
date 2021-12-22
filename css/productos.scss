@@ -1,0 +1,17 @@
+.imagenes__productos {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 50px;
+    place-items: center;
+    padding-bottom: 20px;
+
+    .imagenes__producto {
+        width: 300px;
+        border-radius: 50%;
+        transition: 0.5s;
+        &:hover {
+            box-shadow: 20px 10px 30px grey;
+        }
+    }
+}

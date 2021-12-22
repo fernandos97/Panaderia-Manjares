@@ -1,0 +1,17 @@
+.mapa__sucursales {
+    display: flex;
+    justify-content: space-evenly;
+
+    .mapa__ubicacion {
+        padding-top: 90px;
+    }
+
+    .texto__sucursales {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}

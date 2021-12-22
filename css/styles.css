@@ -37,6 +37,103 @@
   width: 100%;
 }
 
+.imagenes__productos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+  gap: 50px;
+  place-items: center;
+  padding-bottom: 20px;
+}
+
+.imagenes__productos .imagenes__producto {
+  width: 300px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.imagenes__productos .imagenes__producto:hover {
+  -webkit-box-shadow: 20px 10px 30px grey;
+          box-shadow: 20px 10px 30px grey;
+}
+
+.mapa__sucursales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mapa__sucursales .mapa__ubicacion {
+  padding-top: 90px;
+}
+
+.mapa__sucursales .texto__sucursales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.texto__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.texto__contactanos {
+  text-align: center;
+}
+
+.texto__contactanos form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.texto__contactanos .espacio__contactanos {
+  min-height: 50vh;
+}
+
 body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(whitesmoke));
   background-image: linear-gradient(to bottom, white, whitesmoke);
@@ -90,99 +187,6 @@ footer .medios__pago-imagen {
   color: rgba(0, 0, 0, 0.651);
 }
 
-.imagenes__productos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
-  -ms-grid-rows: 2fr 2fr;
-      grid-template-rows: 2fr 2fr;
-  gap: 50px;
-  place-items: center;
-  padding-bottom: 20px;
-}
-
-.imagenes__producto {
-  width: 300px;
-  border-radius: 50%;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.mapa__sucursales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.mapa__ubicacion {
-  padding-top: 90px;
-}
-
-.texto__sucursales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.texto__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.texto__contactanos {
-  text-align: center;
-}
-
-/*pagina contactanos*/
-form {
-  width: 450px;
-  margin: auto;
-  padding: 10px 20px;
-  margin-top: 20px;
-  border-radius: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.espacio__contactanos {
-  min-height: 50vh;
-}
-
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,11 +194,6 @@ form {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.imagenes__producto:hover {
-  -webkit-box-shadow: 20px 10px 30px grey;
-          box-shadow: 20px 10px 30px grey;
 }
 
 .container-fluid {
