@@ -1,8 +1,4 @@
-.tituloManjares {
-    color: black;
-    font-size: 25px;
-    margin-left: 25px;
-}
+@import "index.scss";
 
 body {
     background-image: linear-gradient(to bottom, white, whitesmoke);
@@ -17,44 +13,28 @@ a {
     color: black;
 }
 
-.seccion__comidaImagen {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    display: block;
-}
-
-.seccion__comidaTitulo {
-    background-image: linear-gradient(to left, rgba(199, 190, 190, 50%), rgba(128, 128, 128, 30%));
-    text-align: center;
-    color: rgba(17, 17, 17, 0.747);
-    width: 100%;
-}
-
-.seccion__comida {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px;
-}
-
-.secciones__comidas {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
-}
-
-.medios__pago {
-    color: seashell;
-
-}
-
 footer {
     background-color: rgb(172, 2, 2);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 1px;
     width: 100%;
+    color: seashell;
+
+    &__contactanos
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .segui__redes a {
+        color: white;
+    }
+
+    .medios__pago-imagen {
+        width: 50px;
+        height: 30px;
+    }
 }
 
 .parrafo__bakery {
@@ -72,13 +52,7 @@ footer {
     padding-bottom: 20px;
 }
 
-.footer__contactanos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: seashell;
 
-}
 
 .imagenes__producto {
     width: 300px;
@@ -96,9 +70,7 @@ footer {
     padding-top: 90px;
 }
 
-.segui__redes {
-    color: seashell;
-}
+
 
 .texto__sucursales {
     display: flex;
@@ -116,11 +88,6 @@ footer {
 
 .texto__contactanos {
     text-align: center;
-}
-
-.medios__pago-imagen {
-    width: 50px;
-    height: 30px;
 }
 
 /*pagina contactanos*/
@@ -142,6 +109,8 @@ form {
     min-height: 50vh;
 }
 
+//
+
 .logo {
     display: flex;
     justify-content: center;
@@ -151,9 +120,7 @@ form {
     box-shadow: 20px 10px 30px grey;
 }
 
-.segui__redes a {
-    color: white;
-}
+
 
 .container-fluid {
     font-size: larger;

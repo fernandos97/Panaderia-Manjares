@@ -1,0 +1,27 @@
+.secciones__comidas {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+
+    .seccion__comida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+
+        &-imagen
+        {
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            display: block;
+        }
+        &-titulo
+        {
+            background-image: linear-gradient(to left, rgba(199, 190, 190, 50%), rgba(128, 128, 128, 30%));
+            text-align: center;
+            color: rgba(17, 17, 17, 0.747);
+            width: 100%;
+        }
+    }
+}
