@@ -1,0 +1,198 @@
+.tituloManjares {
+    color: black;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, white, whitesmoke);
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.seccion__comidaImagen {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+}
+
+.seccion__comidaTitulo {
+    background-image: linear-gradient(to left, rgba(199, 190, 190, 50%), rgba(128, 128, 128, 30%));
+    text-align: center;
+    color: rgba(17, 17, 17, 0.747);
+    width: 100%;
+}
+
+.seccion__comida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.secciones__comidas {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+}
+
+.medios__pago {
+    color: seashell;
+
+}
+
+footer {
+    background-color: rgb(172, 2, 2);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.parrafo__bakery {
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.imagenes__productos {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 50px;
+    place-items: center;
+    padding-bottom: 20px;
+}
+
+.footer__contactanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: seashell;
+
+}
+
+.imagenes__producto {
+    width: 300px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.mapa__sucursales {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.mapa__ubicacion {
+    padding-top: 90px;
+}
+
+.segui__redes {
+    color: seashell;
+}
+
+.texto__sucursales {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.texto__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto__contactanos {
+    text-align: center;
+}
+
+.medios__pago-imagen {
+    width: 50px;
+    height: 30px;
+}
+
+/*pagina contactanos*/
+
+form {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.espacio__contactanos {
+    min-height: 50vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes__producto:hover {
+    box-shadow: 20px 10px 30px grey;
+}
+
+.segui__redes a {
+    color: white;
+}
+
+.container-fluid {
+    font-size: larger;
+}
+
+
+/*parte responsive*/
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    .mapa__sucursales {
+        flex-direction: column;
+    }
+
+    .secciones__comidas {
+        grid-template-columns: 1fr;
+    }
+
+    .imagenes__productos {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .medios__pago {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer__contactanos {
+        text-align: center;
+    }
+}

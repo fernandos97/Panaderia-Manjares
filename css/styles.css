@@ -1,193 +1,255 @@
 .tituloManjares {
-    color: black;
-    font-size: 25px;
-    margin-left: 25px;
+  color: black;
+  font-size: 25px;
+  margin-left: 25px;
 }
 
 body {
-    background-image: linear-gradient(to bottom, white, whitesmoke);
-    padding: 0;
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    overflow-x: hidden;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(whitesmoke));
+  background-image: linear-gradient(to bottom, white, whitesmoke);
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .seccion__comidaImagen {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    display: block;
+  width: 80%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
 }
 
 .seccion__comidaTitulo {
-    background-image: linear-gradient(to left, rgb(199, 190, 190, 50%), rgb(128, 128, 128, 30%));
-    text-align: center;
-    color: rgba(17, 17, 17, 0.747);
-    width: 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(#c7bebe), to(gray));
+  background-image: linear-gradient(to left, #c7bebe, gray);
+  text-align: center;
+  color: rgba(17, 17, 17, 0.747);
+  width: 100%;
 }
 
 .seccion__comida {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
 }
 
 .secciones__comidas {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
 }
 
 .medios__pago {
-    color: seashell;
-
+  color: seashell;
 }
 
 footer {
-    background-color: rgb(172, 2, 2);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 1px;
-    width: 100%;
+  background-color: #ac0202;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 1px;
+  width: 100%;
 }
 
 .parrafo__bakery {
-    font-size: 2rem;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.651);
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.651);
 }
 
 .imagenes__productos {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
-    gap: 50px;
-    place-items: center;
-    padding-bottom: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+  gap: 50px;
+  place-items: center;
+  padding-bottom: 20px;
 }
 
 .footer__contactanos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: seashell;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: seashell;
 }
 
 .imagenes__producto {
-    width: 300px;
-    border-radius: 50%;
-    transition: 0.5s;
+  width: 300px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .mapa__sucursales {
-    display: flex;
-    justify-content: space-evenly;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .mapa__ubicacion {
-    padding-top: 90px;
+  padding-top: 90px;
 }
 
 .segui__redes {
-    color: seashell;
+  color: seashell;
 }
 
 .texto__sucursales {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .texto__menu {
-    display: flex;
-    flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .texto__contactanos {
-    text-align: center;
+  text-align: center;
 }
 
 .medios__pago-imagen {
-    width: 50px;
-    height: 30px;
+  width: 50px;
+  height: 30px;
 }
 
 /*pagina contactanos*/
-
 form {
-    width: 450px;
-    margin: auto;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .espacio__contactanos {
-    min-height: 50vh;
+  min-height: 50vh;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .imagenes__producto:hover {
-    box-shadow: 20px 10px 30px grey;
+  -webkit-box-shadow: 20px 10px 30px grey;
+          box-shadow: 20px 10px 30px grey;
 }
 
 .segui__redes a {
-    color: white;
+  color: white;
+}
+
+.container-fluid {
+  font-size: larger;
 }
 
 /*parte responsive*/
-
 @media (max-width: 500px) {
-    nav {
-        flex-direction: column;
-    }
-
-    footer {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    }
-
-    .mapa__sucursales {
-        flex-direction: column;
-    }
-
-    .secciones__comidas {
+  }
+  .mapa__sucursales {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .secciones__comidas {
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    }
-
-    .imagenes__productos {
+  }
+  .imagenes__productos {
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    }
-
-    form {
-        width: 100%;
-    }
-
-    .medios__pago {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .footer__contactanos {
-        text-align: center;
-    }
+  }
+  form {
+    width: 100%;
+  }
+  .medios__pago {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer__contactanos {
+    text-align: center;
+  }
 }
+/*# sourceMappingURL=styles.css.map */
