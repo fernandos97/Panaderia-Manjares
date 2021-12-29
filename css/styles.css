@@ -232,7 +232,7 @@ footer .medios__pago-imagen {
         grid-template-columns: 1fr;
   }
   form {
-    width: 50%;
+    width: 100%;
   }
   .medios__pago {
     padding-top: 20px;
