@@ -114,7 +114,7 @@
 }
 
 .texto__contactanos form {
-  width: 450px;
+  width: 350px;
   margin: auto;
   padding: 10px 20px;
   margin-top: 20px;
@@ -232,7 +232,7 @@ footer .medios__pago-imagen {
         grid-template-columns: 1fr;
   }
   form {
-    width: 100%;
+    width: 50%;
   }
   .medios__pago {
     padding-top: 20px;
