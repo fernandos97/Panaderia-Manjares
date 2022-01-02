@@ -1,4 +1,10 @@
 $footer-color: rgb(172, 2, 2);
+$font-weights: (
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+);
 @import "_index.scss","_productos.scss","_sucursales.scss", "_menu.scss", "_contactanos.scss";
 
 body {
@@ -42,6 +48,8 @@ footer {
     font-size: 2rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.651);
+    font-weight: map-get($font-weights, 'medium');
+
 }
 
 .logo {
