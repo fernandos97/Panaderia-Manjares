@@ -78,6 +78,39 @@
   color: white;
 }
 
+.parrafo__producto {
+  margin-left: 25px;
+  margin-right: 100px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 400%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 400%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .mapa__sucursales {
   display: -webkit-box;
   display: -ms-flexbox;

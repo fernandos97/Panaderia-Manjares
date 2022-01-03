@@ -1,3 +1,7 @@
+@mixin animacionParrafo {
+    
+}
+
 .imagenes__productos {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -32,4 +36,22 @@
 
 .btn_comprar a {
     color: white;
+}
+
+.parrafo__producto {
+    margin-left: 25px;
+    margin-right: 100px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+    from {
+    margin-left: 400%;
+    width: 300%
+    }
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
 }
