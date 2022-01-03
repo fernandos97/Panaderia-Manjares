@@ -6,3 +6,7 @@
         color: white;
     }
 }
+.btn_contactar {
+    @extend %btn;
+    background-color: $footer-color;
+  }

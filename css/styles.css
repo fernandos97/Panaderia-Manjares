@@ -61,6 +61,23 @@
           box-shadow: 20px 10px 30px grey;
 }
 
+.btn_comprar, .btn_contactar {
+  width: 100px;
+  text-align: center;
+  padding: 15px 0;
+  margin: 10px auto;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.btn_comprar {
+  background-color: #ac0202;
+}
+
+.btn_comprar a {
+  color: white;
+}
+
 .mapa__sucursales {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,6 +126,10 @@
   color: white;
 }
 
+.btn_contactar {
+  background-color: #ac0202;
+}
+
 .texto__contactanos {
   text-align: center;
 }
@@ -137,6 +158,10 @@
 
 .texto__contactanos .espacio__contactanos {
   min-height: 50vh;
+}
+
+.btn_contactar a {
+  color: white;
 }
 
 body {

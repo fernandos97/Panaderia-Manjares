@@ -15,3 +15,21 @@
         }
     }
 }
+
+%btn {
+    width: 100px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px auto;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.btn_comprar {
+    @extend %btn;
+    background-color: $footer-color;
+}
+
+.btn_comprar a {
+    color: white;
+}
