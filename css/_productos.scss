@@ -36,6 +36,18 @@
 
 .parrafo__producto {
     padding: 4rem;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-direction: alternate;
 }
-
+@keyframes slidein {
+    from {
+    margin-left: 400%;
+    width: 300%
+    }
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
 
